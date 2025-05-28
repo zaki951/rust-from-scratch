@@ -1,0 +1,30 @@
+fun fib_rec(n) {
+  if (n <= 1) {
+    return 1;
+  }
+  return fib_rec(n - 1) + fib_rec(n - 2);
+}
+
+fun fib_it(n) {
+    if (n <= 1) {
+        return 1;
+    }
+
+    var a = 1;
+    var b = 1;
+
+    for (var i = 2; i <= n; i = i + 1) {
+        var temp = a + b;
+        a = b;
+        b = temp;
+    }
+
+    return b;
+}
+
+var res_rec = fib_rec(10);
+print res_rec;
+print fib_it(10);
+print "is equal ?";
+print res_rec == fib_it(10);
+
