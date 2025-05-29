@@ -38,5 +38,5 @@ The goal of this project is to build a fully functional interpreter from scratch
 ## How to run the example
 
 ```bash
-./your_program.sh run example.lox
+./run.sh run example.lox
 ```
