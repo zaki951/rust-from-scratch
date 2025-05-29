@@ -2,7 +2,7 @@
 This repository documents my learning journey with the Rust programming language.
 It includes two projects that reflect different stages in my understanding of systems programming and Rust concepts.
 
-## 🧪 Project 1: A Minimal TCP Implementation in C++
+## Project 1: A Minimal TCP Implementation in C++
 The first project is a lightweight TCP implementation in C++, inspired by [jonhoo/rust-tcp](https://github.com/jonhoo/rust-tcp), an educational project originally written in Rust. 
 
 At that point, I was just beginning to explore Rust and found it challenging to read and understand.
@@ -24,13 +24,13 @@ The goal wasn’t to write a complete or production-grade TCP stack in C++.
 Instead, I used C++ as a stepping stone to understand Rust more clearly.
 That’s also why the project doesn’t include a full build system or unit tests. The focus was on experimentation and learning, not engineering best practices.
 
-## 🦀 Project 2: Codecrafters Interpreter in Rust
+## Project 2: Codecrafters Interpreter in Rust
 Once I became more confident reading Rust code, I started building small programs and eventually took on the [Codecrafters interpreter challenge](https://app.codecrafters.io/courses/interpreter/overview).
 
 I completed 67 out of 84 stages. By then, I had achieved what I set out to do: gain a practical understanding of Rust syntax, semantics, and interpreter design.
 I chose to stop at that point, as continuing further wouldn't significantly deepen my learning.
 
-## 🚀 Why Learn Rust?
+## Why Learn Rust?
 Safety is a critical concern in software development, especially at the systems level.
 Languages like C and C++ are powerful and capable of building core infrastructure such as operating systems, but they offer few built-in safeguards. Mistakes can easily lead to undefined behavior, crashes, or security issues.
 
